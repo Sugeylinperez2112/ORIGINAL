@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FERIA DE BECAS 2023"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres:"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/txtbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="520dp"
+        android:onClick="onClick"/>
+
+
+    >
+
+</androidx.constraintlayout.widget.ConstraintLayout>
